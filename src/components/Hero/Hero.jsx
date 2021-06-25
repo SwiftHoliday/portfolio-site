@@ -34,7 +34,7 @@ const Header = () => {
             {subtitle || "I build things that make life better!"}
           </h1>
         </Roll>
-        <LightSpeed right={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <LightSpeed right={isDesktop} bottom={isMobile} duration={1000} delay={1610} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
