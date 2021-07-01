@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'Jonathyn.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1N5qw9Jy-mOja7lQita9DKUKJjlpDERH3/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
