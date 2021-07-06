@@ -43,10 +43,10 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Since I was in highschool I have been curious on the why/how everyday things I look at on a screen get there. After speaking with a few friends who are CS majors I got my first real world look into what possibilities the field has to offer, and I have been interested ever since!'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Outside of tech, my hobbies involve playing piano, hiking & shoe shopping.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
