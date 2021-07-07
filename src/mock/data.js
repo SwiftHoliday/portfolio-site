@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'Cutout.png',
+  img: 'Jonathyn.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',

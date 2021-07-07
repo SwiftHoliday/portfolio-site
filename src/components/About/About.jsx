@@ -1,5 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import Tada from 'react-reveal/Tada';
+import Flash from 'react-reveal/Flash';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
@@ -28,11 +30,13 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade delay={1000}>
+            <Tada bottom duration={900} delay={1600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
-            </Fade>
+              </Tada>
+              </Fade>
           </Col>
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
