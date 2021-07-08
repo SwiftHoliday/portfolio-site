@@ -31,7 +31,7 @@ const About = () => {
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade delay={1000}>
-            <Tada bottom duration={900} delay={1600} distance="30px">
+            <Tada bottom duration={900} delay={1270} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>

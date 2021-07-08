@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'qoatspic.jpg',
+    title: 'Qoats',
+    info: 'Just as the oats we use for our early morning breakfast have great nutritional value to the body. A good quote can have just as big an impact for the mind. They help us see and understand life, truths and concepts that we may have otherwise missed or overlooked. They can also inspire us and spark a new fire of motivation to conquer the day or tasks. Qoats is a simple app created to spark inspiration and share a little bit with others.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://swiftholiday.github.io/qoats-app/',
+    repo: 'https://github.com/SwiftHoliday/qoats-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
