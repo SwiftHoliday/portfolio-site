@@ -37,21 +37,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'WITW.png',
+    title: 'What In The World!?',
+    info: "With the time's we live in today I think we can often find ourselves asking the question, What In The World is going on!? If you are someone who likes to stay in the know or catch an interesting article, you've come to the right place! This is a simple web app that displays the top-headlins for the day. Hope you enjoy!",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://what-in-the-world.netlify.app/',
+    repo: 'https://github.com/SwiftHoliday/project-3-client', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Destination.png',
+    title: 'DestiNation',
+    info: "Do you have a lot of travel plans that have you just can't seem to keep organized? Well look no further than DestiNation. This app was designed to help you keep all of your travel plans like your flight, hotels, budget, and even who is coming with you, in one convenient place.",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://destination-travel-app.herokuapp.com/',
+    repo: 'https://github.com/SwiftHoliday/destination', // if no repo, the button will not show up
   },
 ];
 
