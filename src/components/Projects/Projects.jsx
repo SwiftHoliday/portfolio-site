@@ -74,7 +74,7 @@ const Projects = () => {
                 <Col lg={8} sm={12}>
                   <Fade
                     right={isDesktop}
-                    bottom={isMobile}
+                    top={isMobile}
                     duration={1000}
                     delay={1000}
                     distance="30px"

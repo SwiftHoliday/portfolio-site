@@ -1,7 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
 import Zoom from 'react-reveal/Zoom';
 import RubberBand from 'react-reveal/RubberBand';
 import LightSpeed from 'react-reveal/LightSpeed';
@@ -38,7 +36,7 @@ const Header = () => {
             </h1>
             </RubberBand>
           </Zoom>
-        <LightSpeed right={isDesktop} bottom={isMobile} duration={1000} delay={1970} distance="30px">
+        <LightSpeed right={isDesktop} right={isMobile} duration={1000} delay={1970} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>

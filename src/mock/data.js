@@ -67,13 +67,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/jonathYncarter',
-    },
-   {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', 
+      name: 'github',
+      url: 'https://github.com/SwiftHoliday',
     },
     {
       id: nanoid(),
@@ -82,9 +77,10 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/SwiftHoliday',
+      name: 'twitter',
+      url: 'https://twitter.com/jonathYncarter',
     },
+   
   ],
 };
 
