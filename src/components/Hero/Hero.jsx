@@ -36,7 +36,7 @@ const Header = () => {
             </h1>
             </RubberBand>
           </Zoom>
-        <LightSpeed right={isDesktop} right={isMobile} duration={1000} delay={1970} distance="30px">
+        <LightSpeed right={isDesktop} left={isMobile} duration={1000} delay={1970} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
